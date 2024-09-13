@@ -1,0 +1,14 @@
+<div class="header">
+  <h1>
+    <a href="#">
+        <img src="img/????" alt="??" />
+    </a>
+  </h1>
+ 
+  <ul class="nav">
+      <li><a href="#">menu</a></li>
+      <li><a href="#">menu</a></li>
+      <li><a href="#">menu</a></li>
+      <li><a href="#">menu</a></li>
+   </ul>
+</div><!--.header end -->

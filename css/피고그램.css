@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-ExtraBold.eot');
+    src: url('font/프리텐다드체/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-Bold.eot');
+    src: url('font/프리텐다드체/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-Bold.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-Black.eot');
+    src: url('font/프리텐다드체/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-Black.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-ExtraLight.eot');
+    src: url('font/프리텐다드체/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-Medium.eot');
+    src: url('font/프리텐다드체/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-Medium.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-Light.eot');
+    src: url('font/프리텐다드체/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-Light.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-Regular.eot');
+    src: url('font/프리텐다드체/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-Regular.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-SemiBold.eot');
+    src: url('font/프리텐다드체/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-SemiBold.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/프리텐다드체/Pretendard-Thin.eot');
+    src: url('font/프리텐다드체/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/프리텐다드체/Pretendard-Thin.woff2') format('woff2'),
+        url('font/프리텐다드체/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard';
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+.up_wrap{
+    width: 100%;
+    height: 1108px;
+}
+.up_item{
+    width: 100%;
+    height: 1108px;
+    position: relative;
+}
+.up_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.up_item h1{
+    width: 100%;
+    color: white;
+    text-align: center;
+    /* background-color: rgba(43, 43, 43, 0.349); */
+    position: absolute;
+    top: 353px;
+    font-size: 65px;
+    line-height: 80px;
+}
+.up_item p{
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    bottom: 383px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.middle_wrap{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+.middle_wrap .title{
+    font-size: 48px;
+    margin-bottom: 41px;
+}
+.middle_wrap .middle_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle_item img{
+    width: 412px;
+    height: 460px;
+    object-fit: cover;
+}
+.middle_item .middle_wrap_title{
+    width: 412px;
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.middle_item .middle_wrap_title h2{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.middle_item .middle_wrap_title p{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+    margin-bottom: 160px;
+}
+
+.bottom_wrap{
+    overflow: hidden;
+    background-color: #eeeeee
+}
+.bottom_item{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.bottom_item01{
+    width: 550px;
+    margin-top: 260px;
+}
+#bt_item01_uptext{
+    font-size: 20px;
+    font-weight: 600;
+    color: darkred;
+}
+.bottom_item01 h1{
+    font-size: 48px;
+    margin-bottom: 28px;
+}
+#bt_item01_bttext{
+    font-size: 17px;
+    color: rgb(107, 107, 107);
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+.bottom_item01 .button{
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 22.5px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+.bottom_item02{
+    width: 675px;
+    height: 712px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
